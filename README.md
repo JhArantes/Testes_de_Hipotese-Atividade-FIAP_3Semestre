@@ -37,7 +37,7 @@ Dados/
 ├── instancia_12_futebol/dataset.csv
 ├── instancia_13_futebol/dataset.csv
 ...
-└── instancia_24_ecommerce/dataset.csv
+└── instancia_30_ecommerce/dataset.csv
 ```
 
 ### Domínios e variáveis analisadas
@@ -118,6 +118,8 @@ pip install pandas numpy scipy jupyter
 | 23 | Streaming | 105.65 |
 | 24 | E-commerce | 184.80 |
 
+
+Total 6,431.81
 ---
 
 ## 👥 Integrantes
