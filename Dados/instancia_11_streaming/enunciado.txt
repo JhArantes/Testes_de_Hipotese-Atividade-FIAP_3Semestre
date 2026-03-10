@@ -1,0 +1,27 @@
+ATIVIDADE - TESTES DE HIPÓTESE (STREAMING)
+
+Dataset: dataset.csv
+
+REGRAS
+
+- Considere α = 0.05 em todos os itens.
+- Arredonde todas as respostas numéricas para 2 casas decimais.
+- Cada item gera um número final.
+- O seu resultado individual é a soma dos números dos itens.
+- O grupo vencedor é o que entregar primeiro a soma correta dos resultados individuais.
+
+ITENS
+
+a) Qual interface parece gerar melhor avaliação do usuário, antiga ou nova? Use Mann-Whitney U bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior mediana de avaliação. Se não houver diferença, use a mediana geral da avaliação.
+
+b) Qual plano tem menor churn, standard ou premium? Use teste t independente bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de churn. Se não houver diferença, use a média geral de churn.
+
+c) Os usuários passaram mais tempo assistindo depois da mudança? Compare minutos antes e depois para os mesmos usuários com teste t pareado bilateral e α = 5%. Se houver diferença significativa, a resposta é a maior média de minutos. Se não houver diferença, use a média geral entre antes e depois.
+
+d) Sem assumir normalidade, o tempo assistido mudou após a mudança? Use Wilcoxon pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior mediana entre antes e depois. Se não houver diferença, use a mediana geral entre as duas colunas.
+
+RESULTADO INDIVIDUAL
+
+Some os resultados dos itens acima. Esse é o seu resultado individual.
+
+resultado_individual = item_a + item_b + item_c + ...

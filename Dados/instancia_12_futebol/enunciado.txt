@@ -1,0 +1,27 @@
+ATIVIDADE - TESTES DE HIPÓTESE (FUTEBOL)
+
+Dataset: dataset.csv
+
+REGRAS
+
+- Considere α = 0.05 em todos os itens.
+- Arredonde todas as respostas numéricas para 2 casas decimais.
+- Cada item gera um número final.
+- O seu resultado individual é a soma dos números dos itens.
+- O grupo vencedor é o que entregar primeiro a soma correta dos resultados individuais.
+
+ITENS
+
+a) No meio do campeonato o Corinthians trocou de técnico. Compare os gols por partida da primeira metade do campeonato com a segunda metade. Use teste t pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a média de gols da metade com melhor média. Se não houver diferença significativa, use a média geral de gols do Corinthians.
+
+b) Entre Corinthians e Palmeiras, qual time parece receber mais cartões amarelos por partida? Use Mann-Whitney U bilateral com α = 5%. Se houver diferença estatisticamente significativa, a resposta é a mediana de cartões do time com maior mediana. Se não houver diferença significativa, use a mediana geral da coluna de cartões amarelos.
+
+c) Quem finaliza mais por partida, Corinthians ou Palmeiras? Use o teste t de Welch bilateral com α = 5%. Se houver diferença significativa, a resposta é a média de finalizações do time com maior média. Se não houver diferença, use a média geral de finalizações.
+
+d) A posse de bola do Corinthians mudou depois da troca de técnico? Compare a primeira metade contra a segunda metade do campeonato. Use Wilcoxon pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior mediana entre as duas metades. Se não houver diferença, use a mediana geral da posse de bola do Corinthians.
+
+RESULTADO INDIVIDUAL
+
+Some os resultados dos itens acima. Esse é o seu resultado individual.
+
+resultado_individual = item_a + item_b + item_c + ...

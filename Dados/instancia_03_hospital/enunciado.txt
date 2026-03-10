@@ -1,0 +1,27 @@
+ATIVIDADE - TESTES DE HIPÓTESE (HOSPITAL)
+
+Dataset: dataset.csv
+
+REGRAS
+
+- Considere α = 0.05 em todos os itens.
+- Arredonde todas as respostas numéricas para 2 casas decimais.
+- Cada item gera um número final.
+- O seu resultado individual é a soma dos números dos itens.
+- O grupo vencedor é o que entregar primeiro a soma correta dos resultados individuais.
+
+ITENS
+
+a) Qual grupo apresenta maior tempo de sono, tratamento padrão ou novo? Use Mann-Whitney U bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior mediana de sono. Se não houver diferença, use a mediana geral de sono.
+
+b) A dor dos pacientes mudou depois do tratamento? Compare dor antes e depois para os mesmos pacientes. Use teste t pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de dor. Se não houver diferença, use a média geral entre antes e depois.
+
+c) Sem assumir normalidade, a dor dos pacientes mudou após o tratamento? Compare antes e depois com Wilcoxon pareado bilateral e α = 5%. Se houver diferença significativa, a resposta é a menor mediana de dor. Se não houver diferença, use a mediana geral entre antes e depois.
+
+d) Qual tratamento leva a menor tempo médio de recuperação, padrão ou novo? Use teste t independente bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de recuperação. Se não houver diferença, use a média geral de recuperação.
+
+RESULTADO INDIVIDUAL
+
+Some os resultados dos itens acima. Esse é o seu resultado individual.
+
+resultado_individual = item_a + item_b + item_c + ...

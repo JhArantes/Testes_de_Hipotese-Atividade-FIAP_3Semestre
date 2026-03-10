@@ -1,0 +1,27 @@
+ATIVIDADE - TESTES DE HIPÓTESE (HOSPITAL)
+
+Dataset: dataset.csv
+
+REGRAS
+
+- Considere α = 0.05 em todos os itens.
+- Arredonde todas as respostas numéricas para 2 casas decimais.
+- Cada item gera um número final.
+- O seu resultado individual é a soma dos números dos itens.
+- O grupo vencedor é o que entregar primeiro a soma correta dos resultados individuais.
+
+ITENS
+
+a) Pacientes da ala clínica e da ala cirúrgica caminham a mesma quantidade por dia? Use teste t de Welch bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior média de passos por dia. Se não houver diferença, use a média geral de passos.
+
+b) Qual tratamento leva a menor tempo médio de recuperação, padrão ou novo? Use teste t independente bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de recuperação. Se não houver diferença, use a média geral de recuperação.
+
+c) Sem assumir normalidade, a dor dos pacientes mudou após o tratamento? Compare antes e depois com Wilcoxon pareado bilateral e α = 5%. Se houver diferença significativa, a resposta é a menor mediana de dor. Se não houver diferença, use a mediana geral entre antes e depois.
+
+d) A dor dos pacientes mudou depois do tratamento? Compare dor antes e depois para os mesmos pacientes. Use teste t pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de dor. Se não houver diferença, use a média geral entre antes e depois.
+
+RESULTADO INDIVIDUAL
+
+Some os resultados dos itens acima. Esse é o seu resultado individual.
+
+resultado_individual = item_a + item_b + item_c + ...

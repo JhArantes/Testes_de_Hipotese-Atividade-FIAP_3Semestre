@@ -1,0 +1,27 @@
+ATIVIDADE - TESTES DE HIPÓTESE (MANUFATURA)
+
+Dataset: dataset.csv
+
+REGRAS
+
+- Considere α = 0.05 em todos os itens.
+- Arredonde todas as respostas numéricas para 2 casas decimais.
+- Cada item gera um número final.
+- O seu resultado individual é a soma dos números dos itens.
+- O grupo vencedor é o que entregar primeiro a soma correta dos resultados individuais.
+
+ITENS
+
+a) Depois do ajuste do processo, a temperatura média mudou? Compare antes e depois para os mesmos lotes usando teste t pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor média de temperatura. Se não houver diferença, use a média geral entre antes e depois.
+
+b) Qual máquina apresenta maior vibração típica, M1 ou M2? Use Mann-Whitney U bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior mediana de vibração. Se não houver diferença, use a mediana geral de vibração.
+
+c) Sem assumir normalidade, a temperatura mudou depois do ajuste? Use Wilcoxon pareado bilateral com α = 5%. Se houver diferença significativa, a resposta é a menor mediana de temperatura. Se não houver diferença, use a mediana geral entre antes e depois.
+
+d) O tempo de ciclo médio difere entre turno do dia e da noite? Use teste t de Welch bilateral com α = 5%. Se houver diferença significativa, a resposta é a maior média de tempo de ciclo. Se não houver diferença, use a média geral do tempo de ciclo.
+
+RESULTADO INDIVIDUAL
+
+Some os resultados dos itens acima. Esse é o seu resultado individual.
+
+resultado_individual = item_a + item_b + item_c + ...
